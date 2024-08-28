@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <div>
+            <label form ="nome">Nome:</label>
+            <input type = "teste" id = "nome" name = "Name">
+        </div>
+        <div>
+            <label form = "cidade">Cidade: </label>
+            <input type = "text" id="cidade" name="cidade"> 
+        </div>
+        <div>
+            <label form = "país">País:</label>
+            <input type = "text" id = "país" name="país">
+        </div>
+        <div>
+            <label form = "email">E-mail:</label>
+            <input type = "email" id = "email" name= "email">
+        </div>
+        <div>
+            <label form = "senha">Senha</label>
+            <input type = "password" id="senha" name="senha">
+                
+            </input>
+        </div>
+        <fieldset>
+        <legend>Fruta</legend>
+        <input type = "radio" name = "fruta" id = "um" value= "Abacaxi">
+        <label for = "um">Abacaxi</label>
+        <input type = "radio" name = "Fruta" id = "dois" value= "Banana">
+        <label for = "dois">Banana</label>
+        <input type = "radio" name = "fruta" id = "tres" value="Mamão">
+        <label for = "tres">Mamão</label>
+        <input type = "radio" name = "fruta" id = "quatro" value = "Melão">
+        <label for = "quatro">Melão</label>
+        </fieldset>
+        <fieldset>
+        <legend>Verdura</legend>
+        <input type = "radio" name ="Verdura" id = "cinco" value ="Alface">
+        <label for = "cinco">Alface</label>
+        <input type ="radio" name="Verdura" id=" = seis" value = "Rúcula">
+        <label for = "seis">Rúcula</label>    
+        </fieldset>
+     <br>
+     <label for = "opinião">Comentãrios</label>
+     <div>
+     <textarea id="opinião" rows = "5" cols = "40" name = "entrada" maxlength= "300"></textarea>
+    </div>   
+        <button>Enviar</button>
+    </form>
+    
+</body>
+</html>
